@@ -28,8 +28,8 @@ The app defines following CRUD APIs.
 ```
 GET /api/contact
 POST /api/contact
-GET /api/contact/{noteId}
-PUT /api/contact/{noteId}
-DELETE /api/contact/{noteId}
+GET /api/contact/{id}
+PUT /api/contact/{id}
+DELETE /api/contact/{id}
 ```
 We can test them using postman or any other rest client.
