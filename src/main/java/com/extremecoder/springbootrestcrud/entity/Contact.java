@@ -1,7 +1,14 @@
 package com.extremecoder.springbootrestcrud.entity;
 
-public class Contact {
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.io.Serializable;
+
+@Document(collection = "contact")
+public class Contact implements Serializable {
+
+    @Id
     private Long id;
 
     private String name;
